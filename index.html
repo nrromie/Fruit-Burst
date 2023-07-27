@@ -33,14 +33,13 @@
       *{
         font-family: 'Lato';
       }
-
     </style>
 </head>
 <body>
     <header class="lg:w-3/4 w-11/12 mx-auto">
         <nav>
 
-            <div class="navbar justify-between items-center lg:bg-brand lg:text-white rounded-full md:px-0">
+            <div class="navbar rounded-full justify-between items-center lg:bg-brand lg:text-white md:px-0">
 
               <div class="navbar-start hidden lg:flex w-1/3">
                 <ul class="menu menu-horizontal px-1">
@@ -72,7 +71,7 @@
                 </div>
               </div>
 
-              <div class="navbar-end hidden lg:flex input input-bordered w-1/4 rounded-full text-black mr-3">
+              <div class="navbar-end hidden lg:flex input input-bordered w-1/4 h-8 rounded-full text-black mr-4">
                 <input type="text" placeholder="Search here" class="w-full focus:outline-none"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
               </div>
             </div>
@@ -83,7 +82,7 @@
 
     <main class="lg:w-3/4 w-11/12 mx-auto">
       <section class="banner my-14  relative">
-        <div class="carousel w-full h-[600px]">
+        <div class="carousel w-full h-80 rounded lg:h-[36rem]">
           <div id="slide1" class="carousel-item relative w-full">
               <div class="w-full h-full bg-no-repeat bg-center bg-cover text-center bg-[linear-gradient(to_bottom,#121212AA,rgba(18,18,18,0.0)),url('./images/banner1.png')]">
               </div>
@@ -121,12 +120,12 @@
       </div>
 
       <div class="lg:h-4/5 h-full w-full mx-auto absolute text-white top-0 left-0 right-0 z-30 flex flex-col justify-center text-center items-center py-20">
-          <h1 class="text-7xl font-extrabold pb-8">Exotic tastes at your<br>doorstep</h1>
-          <p class="text-xl font-medium pb-7">We supply highly quality organic products</p>
+          <h1 class="text-3xl pb-5 font-extrabold md:text-5xl lg:pb-8 lg:text-7xl">Exotic tastes at your<br>doorstep</h1>
+          <p class="text-sm font-medium pb-7 md:text-base lg:text-xl">We supply highly quality organic products</p>
           <button class="btn text-xl font-extrabold bg-brand border-none text-white">Shop Now</button>
       </div>
 
-        <div class="hidden relative lg:flex justify-around items-center z-30 h-48 mt-[-6rem] lg:w-10/12 mx-auto shadow-lg bg-white text-center">
+        <div class="hidden relative lg:flex justify-around items-center z-30 h-48 mt-[-6rem] lg:w-10/12 mx-auto shadow-lg bg-white text-center rounded">
           <div>
             <img src="images/fruit1.png" alt="Strawberry" class="h-auto">
             <h1>Strawberry</h1>
@@ -153,7 +152,7 @@
       <section>
         <div class="flex justify-between flex-col gap-7 items-center text-center lg:text-left lg:flex-row my-12">
           <div class="lg:w-7/12">
-            <h1 class="text-5xl font-extrabold mb-6">Deal of the day</h1>
+            <h1 class="text-xl font-extrabold mb-6 lg:text-5xl">Deal of the day</h1>
             <p class="font-medium text-igray">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
@@ -496,7 +495,7 @@
     </main>
     <footer class="bg-black text-white text-center flex justify-center flex-col items-center gap-16 p-12">
       <a class="btn btn-ghost text-4xl font-bold md:px-0"><img class="h-12" src="images/logo.png" alt="logo">Fruit Burst</a>
-      <div class="list-none justify-center items-center flex gap-14 flex-wrap font-semibold">
+      <div class="list-none justify-center items-center flex gap-12 flex-wrap text-lg font-semibold">
         <li><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Shop</a></li>
